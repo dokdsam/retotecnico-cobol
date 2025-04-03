@@ -66,6 +66,8 @@ namespace RetoTecnicoCobol
             BalanceFinal = TotalCredito - TotalDebito;
 
             //Se imprimen los datos
+            Console.WriteLine("Reporte de Transacciones");
+            Console.WriteLine("---------------------------------------------");
             Console.WriteLine($"Balance Final: {BalanceFinal}");
             Console.WriteLine($"Transacción de Mayor Monto: ID {Cod_TransaccionMayor} - {Num_TransaccionMayor}");
             Console.WriteLine($"Conteo de Transacciones: Crédito: {NroTR_Credito} Débito: {NroTR_Debito}");
